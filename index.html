@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Trafico</title>
+</head>
+<body>
+
+    <section class="container">
+        <div class="top">
+            <nav>
+                <div class="logo">
+                    <img src="/images/logo.png" alt="logo">
+                </div>
+
+                <div class="menu">
+                    <a href="#about_link">About</a>
+                    <a href="#how_to_link">How to</a>
+                    <a href="#faq_link">Faqs</a>
+                    <a id ="contact" href="#contact_link">Contact us</a>
+                </div>
+                <div class="hamburger">
+                    <i id="hamburger" class="fas fa-bars"></i>
+                    <div id="mobile_menu" class="mobile_nav">
+                        <a href="#about_link">About</a>
+                        <a href="#how_to_link">How to</a>
+                        <a href="#faq_link">Faqs</a>
+                        <a id ="contact" href="#contact_link">Contact us</a>
+                    </div>
+                </div>
+                
+            </nav>
+
+            <div class="hero">
+                <h1>
+                    <p>Your awesome</p>
+                    <p>traffic permit</p>
+                    <p>consultant.</p>
+                </h1>
+                <div class="button">
+                   <a href="/started.html" target="_blank" rel="noopener noreferrer">
+                    <span>Get started <img src="/images/arrow.png" alt="arrow"> </span>
+                </a> 
+                </div>
+            </div>  
+        </div>
+    
+        <div class="bottom">
+            <div class="truck">
+                <img data-aos="fade-right" data-aos-duration="1500" src="/images/truck.png" alt="truck">
+            </div>
+            <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="3000" class="couple">
+                <img id="man" src="/images/man.png" alt="man">
+                <img id="woman" src="/images/woman.png" alt="woman">
+            </div>
+        </div>
+
+        <div id="about_link" class="about">
+            <div class="about_text">
+                <h3>
+                    About Us
+                </h3>
+
+                <p>The occupational traffic permit is one of the most</p>
+                <p>important things in the company when carrying out</p>
+                <p>freight transport. In fact, it is a prerequisite for doing</p>
+                <p>business traffic at all.</p>
+
+                <div class="square">
+                    <p>How do you do when you need to obtain</p>
+                    <p>a commercial traffic permit for freight</p>
+                    <p>transport to your business?</p>
+                </div>
+
+            </div>
+            <div class="man">
+                <img data-aos="fade-left" data-aos-duration="2000" src="/images/about_us_man.png" alt="man">
+            </div>
+
+        </div>
+
+        <div id="how_to_link" class="how_to">
+            <div class="woman">
+                <img data-aos="fade-right" data-aos-duration="2000" src="/images/how_to_woman.png" alt="woman">
+            </div>
+
+            <div class="how_to-text">
+                <h3>
+                    How to Apply
+                </h3>
+
+                <p>When applying for a traffic permit, there are certain</p>
+                <p>requirements that you must meet that are included in</p>
+                <p>the examination: requirements for professional</p>
+                <p>knowledge, solid establishment, good reputation and</p>
+                <p>financial resources. Important to remember is to</p>
+                <p>confirm your application for a traffic permit by the</p>
+                <p>company's company signer or CEO.</p>
+            </div>
+
+        </div>
+
+        <div id="faq_link" class="faq">
+            <div class="faq_container">
+                <section class="faq_left">
+                    <h3>Faq</h3>
+
+                    <div class="faq_text">
+                        <h2>Questions and Answers</h2>
+                        <h2>on Professional Traffic</h2>
+                        <h2>Permits:</h2>
+                    </div>
+                </section>
+
+                <section data-aos="fade-left" data-aos-duration="2000" class="faq_right">
+                    <img id="faq_man" src="/images/faq.png" alt="faq_man">
+                    <img id="question" src="/images/question_mark.png" alt="question">
+                </section>
+
+                <div class="questions">
+
+                     <!-- right container questions -->
+                    <div class="questions_right">
+                        <div id="que1" class="que">
+                            <span>What is a professional traffic permit?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide1" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer1" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                        <!--end question + answer -->
+
+                        <div id="que2" class="que"> 
+                            <span>How to check the traffic condition?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide2" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer2" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que3" class="que"> 
+                            <span>What are the requirements for a professional <br> traffic permit?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide3" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer3" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que4" class="que"> 
+                            <span>Are there professional traffic permit training <br> courses at a distance?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide4" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer4" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que5" class="que"> 
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ratione in assumenda </span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide5" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer5" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que6" class="que"> 
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ratione in assumenda</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide6" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer6" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                         <!--hidden additional questions-->
+                         <div id="extraQue1" class="que hidden"> 
+                            <span>This is an extra question showing up on <br> load more (1)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide1" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw1" class="answer">
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Perferendis, tempore laborum. Reiciendis, hic. </span>
+                        </div>
+                         <!--end question + answer -->
+
+                         <div id="extraQue2" class="que hidden"> 
+                            <span>This is an extra question showing up on <br> load more (2)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide2" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw2" class="answer">
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Perferendis, tempore laborum. Reiciendis, hic. </span>
+                        </div>
+                         <!--end question + answer -->
+
+                         <div id="extraQue3" class="que hidden"> 
+                            <span>This is an extra question showing up on <br> load more (3)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide3" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw3" class="answer">
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Perferendis, tempore laborum. Reiciendis, hic. </span>
+                        </div>
+                         <!--end of hidden questions -->
+                    </div>
+
+                    <!-- left container questions -->
+                    <div class="questions_left">
+                        <div id="que7" class="que">
+                            <span>When is a professional traffic permit needed?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide7" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer7" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que8" class="que">
+                            <span>Where to look for a traffic permit?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide8" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer8" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que9" class="que">
+                            <span>Are there differences between a traffic permit <br> and a professional traffic permit?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide9" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer9" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que10" class="que">
+                            <span>How much does a commercial traffic permit <br> cost for goods?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide10" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer10" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que11" class="que">
+                            <span>How to plug in for traffic permit test?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide11" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer11" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+                        <div id="que12" class="que">
+                            <span>How is a sample for professional traffic <br> permit booked?</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide12" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="answer12" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                         <!--end question + answer -->
+
+
+                         <!-- hidden additional questions -->
+                        <div id="extraQue4" class="que hidden">
+                            <span>This is an extra question showing up on <br> load more (4)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide4" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw4" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                        <!--end question + answer -->
+
+                        <div id="extraQue5" class="que hidden">
+                            <span>This is an extra question showing up on <br> load more (5)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide5" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw5" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                        <!--end question + answer -->
+
+                        <div id="extraQue6" class="que hidden">
+                            <span>This is an extra question showing up on <br> load more (6)</span>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="extraHide6" class="plus"></div>
+                            </div>
+                        </div>
+                        <div id="extraAnsw6" class="answer">
+                            <span>Traffic permits are a requirement for conducting <br> professional traffic </span>
+                        </div>
+                        <!--end of hidden questions -->
+
+
+                         <!--LOAD MORE QUESTIONS-->
+                        <div id="load" class="que">
+                            <div class="load"> <span>Load more</span> </div>
+                            <div class="symbol">
+                               <div class="minus"></div>
+                               <div id="hide13" class="plus"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of FAQ section -->
+
+        <div class="footer">
+            <div class="footer_left">
+                <div data-aos="fade-right" data-aos-duration="2000" class="footer_images">
+                    <img id="footer_truck" src="/images/footruck.png" alt="truck">
+                    <img id="blue_cone" src="/images/cone-blue.png" alt="cone">
+                    <img id="pink_cone" src="/images/cone2.png" alt="cone">
+                </div>
+                <div id="contact_link" class="contact_form">
+                    <p>Name: </p>
+                    <input type="text">
+
+                    <p>E-mail address:</p>
+                    <input type="text">
+
+                    <div class="button">
+                       <a href="/started.html" target="_blank" rel="noopener noreferrer"> <span>Get started</span>
+                        <img src="/images/arrow.png" alt="arrow"> </a>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>We provide traffic management</p>
+                    <p>consultans so you get started</p>
+                    <p>quickly, contact us for a quote</p>
+                    <p>today!</p>
+                </div>
+
+                <img id="line" src="/images/footerline.png" alt="line">
+
+                <nav>
+                    <div class="logo">
+                        <img src="/images/logo.png" alt="logo">
+                    </div>
+    
+                    <div class="menu">
+                        <a href="#about_link">About</a>
+                        <a href="#how_to_link">How to</a>
+                        <a href="#faq_link">Faqs</a>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="social-media">
+                <h4>Copyright @ 2021</h4>
+                <div>
+                    <div class="social"> <i class="fab fa-facebook-f"></i> </div>
+                    <div class="social"> <i class="fab fa-twitter"></i> </div>
+                    <div class="social"> <i class="fab fa-instagram-square"></i> </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+   
+    <script src="/app.js"></script>
+</body>
+</html>
