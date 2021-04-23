@@ -1,19 +1,5 @@
-/*window.scroll = () => {
-    gsap.fromTo('.couple', { x: '+15%', ease: 'sine'}, {duration: 2.5, x: '150%', ease: 'sine'});
-}
 
-gsap.fromTo('.couple', { x: '+15%', ease: 'sine'}, {duration: 2.5, x: '150%', ease: 'sine'});
-
-gsap.fromTo('.truck', { x: '-100%', ease: 'sine'}, {duration: 2.6, x: '1%', ease: 'sine', delay: .7});
-
-gsap.fromTo('.man', { x: '+15%', ease: 'sine'}, {duration: 2.5, x: '0%', ease: 'sine'});
-gsap.fromTo('.woman', { x: '-100%', ease: 'sine'}, {duration: 2.6, x: '1%', ease: 'sine', delay: .7});
-
-gsap.fromTo('#question', { opacity: 0, ease: 'sine'}, {duration: 2.6, opacity: 1, ease: 'sine', delay: 1.9});
-gsap.fromTo('#faq_man', { x: '+15%', ease: 'sine'}, {duration: 1.8, x: '55%', ease: 'sine'});
-
-gsap.fromTo('.footer_images', { x: '-100%', ease: 'sine'}, {duration: 1.6, x: '0%', ease: 'sine', delay: .7}); */
-
+// reveal top menu in table/mobile view
 let hamburger = document.querySelector('#hamburger');
 let mobileMenu = document.querySelector('#mobile_menu');
 
@@ -22,6 +8,7 @@ hamburger.addEventListener('click', function(e) {
     console.log('click')
 })
 
+//template for triggering show hidden answers
 class Show_Answer {
     show(target, element, hide_plus) {
         target.addEventListener('click', () => {
